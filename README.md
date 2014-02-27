@@ -1,5 +1,5 @@
-godaddy-ssl-on-nexcess
-======================
+GoDaddy SSL on Nexcess Hosting
+==========================================
 
 Instructions for updating or adding a GoDaddy SSL certificate on Nexcess hosting. Originally written July 27, 2011. If there's been changes and you know about them, please file an issue or leave a pull request.
 
