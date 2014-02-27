@@ -1,7 +1,9 @@
 godaddy-ssl-on-nexcess
 ======================
 
-Instructions for updating or adding a GoDaddy SSL certificate on Nexcess hosting. Originally written July 27, 2011.
+Instructions for updating or adding a GoDaddy SSL certificate on Nexcess hosting. Originally written July 27, 2011. If there's been changes and you know about them, please file an issue or leave a pull request.
+
+## Steps
 
 1. Renew or set up the SSL on GoDaddy.
 2. Once it is set up, log into the InterWorx Control Panel.
