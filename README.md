@@ -6,7 +6,7 @@ Instructions for updating or adding a GoDaddy SSL certificate on Nexcess hosting
 ## Steps
 
 1. Renew or set up the SSL on GoDaddy.
-2. Once it is set up, log into the InterWorx Control Panel.
+2. Once it is set up, log into the InterWorx Control Panel, and select the domain.
 3. Go to Hosting Features > SSL Certificates.
 4. Go into _Private Key_, _Certificate Signing Request (CSR)_, _SSL Certificate_, and _SSL Chain Certificate_ and click the Delete button.
 5. Once you have deleted the Key, CSR, and both Certificates, go into _Private Key_ and click the Generate button.
@@ -15,7 +15,7 @@ Instructions for updating or adding a GoDaddy SSL certificate on Nexcess hosting
 8. Go back to the GoDaddy account control panel and go to SSL Certificates. Click the _Manage Certificate_ button.
 9. This will take you to the SSL Certificates Control Panel. Check the box next to the proper domain and click the Re-Key button above.
 10. Paste the CSR data you copied from the dialog box and click the Re-Key button.
-11. When finished, download the SSL as "Other". Unzip the file and it will have two files in it:
+11. When finished, download the SSL as "Apache". Unzip the file and it will have two files in it:
   12. gd_bundle.crt
   13. domain-name.com.crt (Or whatever other domain it could be)
 14. Open these files in a plain text editor.
